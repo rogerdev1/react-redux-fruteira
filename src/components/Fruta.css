@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.Fruta{
+    background-color: rgb(228, 228, 228);
+    margin: 10px auto;
+    width: 50%;
+    border: 2px gray solid;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.Fruta ul {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+}
+.Fruta ul li{
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.Fruta div{
+    margin-bottom: auto;
+}
+.Fruta div button{
+    background-color: rgb(247 41 41);
+    border: .5px gray solid;
+    border-radius: 50%;
+    padding: 5px;
+    color: aliceblue;
+    font-weight: 700;
+}.Fruta div button:hover{
+    transform: scale(1.1);
+    background-color: rgb(211 38 38);
+}
